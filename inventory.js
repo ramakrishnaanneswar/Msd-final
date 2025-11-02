@@ -71,7 +71,6 @@
   itemForm.addEventListener('submit', e=>{
     e.preventDefault();
     const name = document.getElementById('itemName').value.trim();
-    <label>SKU <input id="itemSKU" placeholder="SKU code (optional)"></label>
     const qty = Number(document.getElementById('itemQty').value) || 0;
     const price = Number(document.getElementById('itemPrice').value) || 0;
 
